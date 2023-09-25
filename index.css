@@ -1,0 +1,44 @@
+* {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.border {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  height: 80vh;
+  border-left: 15px solid gray;
+  border-bottom: 15px solid gray;
+  padding: 10px;
+  margin: 30px;
+}
+
+.section__pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.section__text {
+  align-self: center;
+  text-align: center;
+}
+.name {
+  font-size: 5rem;
+}
+
+#nav-buttons {
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn {
+  border-color: white;
+  color: white;
+}
